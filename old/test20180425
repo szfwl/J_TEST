@@ -1,0 +1,3 @@
+def user(name):
+    print("Hello"+name.title())
+user('Linda')

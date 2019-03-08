@@ -1,0 +1,7 @@
+def message(name,age):
+    full_name=name+" "+age
+    return full_name
+
+a=message('java','11')
+print (a)
+

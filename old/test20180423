@@ -1,0 +1,10 @@
+u_users=['aa','bb','cc']
+c_users=[]
+while u_users:
+    c_user=u_users.pop()
+    print("user:"+c_user.title())
+    c_users.append(c_user)
+
+print ("\nThe following users have been confirmed:")
+for c_user in c_users:
+    print (c_user.title())
